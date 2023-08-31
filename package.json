@@ -1,9 +1,9 @@
 {
   "name": "dncl-vscode",
   "displayName": "DNCL Language Support (共通テスト手順記述標準言語)",
-  "description": "Adds support for DNCL Language",
+  "description": "Adds support for DNCL (共通テスト手順記述標準言語) Language",
   "publisher": "natureofmad",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preview": true,
   "engines": {
     "vscode": "^1.0.0"
