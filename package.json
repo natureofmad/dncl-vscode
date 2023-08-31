@@ -4,6 +4,7 @@
   "description": "Adds support for DNCL Language",
   "publisher": "Osaka Prefectural Tondabayashi Junior and Senior High School Science Club",
   "version": "0.0.1",
+  "preview": true,
   "engines": {
     "vscode": "^1.0.0"
   },
