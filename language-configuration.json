@@ -121,7 +121,7 @@
 		},
         {
 			// Decrease indentation after single line if/else if/else, for, or while
-			"previousLineText": "^\\s*((そうでなく)?もし.+ならば|.*増やしながら|.*減らしながら|.*そうでなければ|関数.+を|繰り返し|の間)[、，,]?$",
+			"previousLineText": "^\\s*((そうでなく)?もし.+ならば|.*増やしながら|.*減らしながら|.*そうでなければ|関数.+を|繰り返し|の間)[、，,：:]?$",
 			// But make sure line doesn't have braces or is not another if statement
 			"beforeText": "^\\s+([^{も\\s]|も(?!し\\b))",
 			"action": {
