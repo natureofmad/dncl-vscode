@@ -1,4 +1,4 @@
-# DNCL Language Support for VSCode
+# DNCL Language Support for VSCode (Experimental)
 
 共通テスト手順記述標準言語 (DNCL) の記法を見やすくする Visual Studio Code 向け拡張機能です（非公式）。DNCLの実行環境は同梱していません。
 
