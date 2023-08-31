@@ -1,0 +1,41 @@
+{
+  "name": "dncl-vscode",
+  "displayName": "DNCL Language Support (共通テスト手順記述標準言語)",
+  "description": "Adds support for DNCL Language",
+  "publisher": "Osaka Prefectural Tondabayashi Junior and Senior High School Science Club",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets",
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natureofmad/dncl-vscode"
+  },
+  "keywords": [
+    "DNCL",
+    "共通テスト",
+    "大学入試センター"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "dncl",
+      "aliases": ["DNCL", "dncl"],
+      "extensions": [".dnc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "dncl",
+      "scopeName": "source.dncl",
+      "path": "./syntaxes/dncl.tmLanguage.json"
+    }],
+    "snippets": [{
+        "language": "dncl",
+        "scopeName": "source.dnc",
+        "path": "./snippets/dncl.code-snippets"
+    }]
+  }
+}

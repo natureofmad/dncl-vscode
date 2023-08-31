@@ -1,0 +1,58 @@
+{
+    "Function Statement": {
+        "prefix": "関数",
+        "body": [
+            "関数 ${1:name}(${2:params}) を",
+            "\t$TM_SELECTED_TEXT$0",
+            "と定義する"
+        ],
+        "description": "関数定義"
+    },
+    "If Statement": {
+        "prefix": "もし",
+        "body": [
+            "もし ${1:condition} ならば",
+            "\t$TM_SELECTED_TEXT$0",
+            "を実行する"
+        ],
+        "description": "条件分岐（If）"
+    },
+    "If-Else Statement": {
+        "prefix": "もし…でなければ",
+        "body": [
+            "もし ${1:condition} ならば",
+            "\t$TM_SELECTED_TEXT$0",
+            "を実行し、そうでなければ",
+            "\t",
+            "を実行する"
+        ],
+        "description": "条件分岐（If-Else）"
+    },
+    "For Statement": {
+        "prefix": "繰り返し…を…から…まで",
+        "body": [
+            "${1:index} を 0 から ${2:stop} まで 1 ずつ増やしながら、",
+            "\t$TM_SELECTED_TEXT$0",
+            "を実行する"
+        ],
+        "description": "繰り返し（For）"
+    },
+    "While Statement": {
+        "prefix": "の間",
+        "body": [
+            "${1:condition} の間、",
+            "\t$TM_SELECTED_TEXT$0",
+            "を繰り返す"
+        ],
+        "description": "繰り返し（While）"
+    },
+    "Do-While Statement": {
+        "prefix": "繰り返し…を…になるまで",
+        "body": [
+            "繰り返し、",
+            "\t$TM_SELECTED_TEXT$0",
+            "を、 ${1:condition} になるまで実行する"
+        ],
+        "description": "繰り返し（Do-While）"
+    }
+}
