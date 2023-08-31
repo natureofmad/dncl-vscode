@@ -2,7 +2,7 @@
   "name": "dncl-vscode",
   "displayName": "DNCL Language Support (共通テスト手順記述標準言語)",
   "description": "Adds support for DNCL Language",
-  "publisher": "Osaka Prefectural Tondabayashi Junior and Senior High School Science Club",
+  "publisher": "natureofmad",
   "version": "0.0.1",
   "preview": true,
   "engines": {
